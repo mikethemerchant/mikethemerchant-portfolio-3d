@@ -7,13 +7,15 @@ const Ball = (props) => {
   const [decal] = useTexture([props.imgUrl]);
 
   return (
+    // Q: why do the balls only float while i scroll the page?
+
     <Float 
       speed={1.75} 
       roatationIntensity={1} 
       floatIntensity={2}
       floatingRang={[1, 10]}
     >
-      <ambientLight intensity={0.95} />
+      <ambientLight intensity={0.25} />
       <directionalLight position={[0, 0, 0.05]} />
       <mesh castShadow receiveShadow scale={2.75}>
           <icosahedronGeometry args={[1, 1]} />
@@ -26,9 +28,7 @@ const Ball = (props) => {
           <Decal
             position={[0, 0, 1]}
             rotation={[2 * Math.PI, 0, 6.25]}
-            scale={1}
             map={decal}
-            flatShading
           />
         </mesh>
       </Float>
@@ -38,7 +38,7 @@ const Ball = (props) => {
 const BallCanvas = ({icon}) => {
   return (
     <Canvas 
-      frameloop="demand"
+      frameloop="always"
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
     >
