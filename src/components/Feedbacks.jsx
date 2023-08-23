@@ -5,6 +5,20 @@ import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
 
+const FeedbackCard = ({ index, testimonial, name, designation, company, image}) => {
+
+  return (
+   <>
+      <div className="flex flex-col sm:flex-row items-center justify-center gap-5 mt-10">
+        <p>{testimonial}</p>
+        <img src={image}/>
+        <p>{name}</p>
+        <p>{designation}</p>
+        <p>{company}</p>
+      </div>
+   </>
+  )}
+
 const Feedbacks = () => {
   return (
     <div className="mt-12 bg-black-100 rounded-[20px]">
@@ -12,10 +26,16 @@ const Feedbacks = () => {
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>What others say</p>
           <h2 className={styles.sectionHeadText}>Testimonails.</h2>
-          {testimonials.map((testimonial, index) => (
-            <p>{testimonial.name}</p>
-          ))}
         </motion.div>
+      </div>
+      <div>
+        {testimonials.map((testimonial, index) => (
+            <FeedbackCard 
+              key={`testimonial-${index}`}
+              index={index}
+              {...testimonial}
+            />
+          ))}
       </div>
     </div>
   )
