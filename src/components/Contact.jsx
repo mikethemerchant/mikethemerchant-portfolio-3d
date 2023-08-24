@@ -7,6 +7,10 @@ import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
+// template_evt2k0t
+// service_a97ptjg
+// NzJx05jAh7tXtl1Qi
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -16,10 +20,41 @@ const Contact = () => {
   });
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value })
+  }
 
-  const handleSubmit = (e) => {}
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
 
+    emailjs.send(
+      'service_a97ptjg', 
+    'template_evt2k0t',
+    {
+      from_name: form.name,
+      from_email: form.email,
+      message: form.message,
+      to_name: 'Mike',
+      to_email: 'mikethemerchant@gmail.com'
+    }, 
+    'NzJx05jAh7tXtl1Qi'
+    ).then(() => {
+      setLoading(false);
+      alert('Your message has been sent successfully!');
+      setForm({
+        name: '',
+        email: '',
+        message: ''
+      });
+      formRef.current.reset();
+    }, (error) => {
+      setLoading(false);
+      console.log(error.text);
+      alert('Something went wrong, please try again later.');
+    });
+  }
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
       <motion.div
@@ -57,7 +92,7 @@ const Contact = () => {
             <input 
               type="text"
               name="email"
-              value={form.name}
+              value={form.email}
               onChange={handleChange}
               placeholder="What's your email?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
@@ -70,7 +105,7 @@ const Contact = () => {
             <textarea 
               rows="7"
               name="message"
-              value={form.name}
+              value={form.message}
               onChange={handleChange}
               placeholder="What's your message?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
