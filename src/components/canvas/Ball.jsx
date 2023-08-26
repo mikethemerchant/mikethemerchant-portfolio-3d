@@ -1,6 +1,7 @@
 import React, { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { Decal, Float, OrbitControls, Preload, useTexture } from '@react-three/drei'
+
 import CanvasLoader from '../Loader';
 
 const Ball = (props) => {
@@ -38,7 +39,7 @@ const Ball = (props) => {
 const BallCanvas = ({icon}) => {
   return (
     <Canvas 
-      frameloop="always"
+      frameloop='always'
       dpr={[1, 2]}
       gl={{ preserveDrawingBuffer: true }}
     >
