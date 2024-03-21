@@ -67,4 +67,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  chris,
+  andrew,
+  iwata,
 };
