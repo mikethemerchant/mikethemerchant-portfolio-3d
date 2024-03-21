@@ -25,6 +25,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    chris,
+    andrew,
+    iwata,
   } from "../assets";
   
   export const navLinks = [
@@ -188,7 +191,7 @@ import {
       name: "Chris Sullivan",
       designation: "CEO and President",
       company: "PRIMUS Technologies",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      image: chris,
     },
     {
       testimonial:
@@ -196,7 +199,7 @@ import {
       name: "Takeshi Iwata",
       designation: "President / CEO",
       company: "Shingijutsu Global",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      image: iwata,
     },
     {
       testimonial:
@@ -204,7 +207,7 @@ import {
       name: "Andrew Schlachter",
       designation: "Senior Programmer Analyst",
       company: "Spartronics",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      image: andrew,
     },
   ];
   
