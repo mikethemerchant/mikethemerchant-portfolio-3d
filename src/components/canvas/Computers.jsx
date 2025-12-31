@@ -50,6 +50,13 @@ const ComputersCanvas = () => {
     
   }, []);
 
+  // On small screens, skip the 3D canvas to avoid long loads/white screen and show a lightweight placeholder instead.
+  if (isMobile) {
+    return (
+      <div className="w-full h-[300px] rounded-2xl bg-gradient-to-b from-[#1f1f3a] to-[#0f0f1f] border border-[#2a2a45]" />
+    );
+  }
+
   return (
     <Canvas 
       frameloop="demand"
