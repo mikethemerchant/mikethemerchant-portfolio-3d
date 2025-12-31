@@ -21,6 +21,12 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
+import ADO from "./tech/ADO.png";
+import Csharp from "./tech/Csharp.png";
+import dotNet from "./tech/dotNet.png";
+import Python from "./tech/Python.png";
+import SQL from "./tech/SQL.png";
+
 import Spartronics from "./company/Spartronics.png";
 import Primus from "./company/Primus.png";
 import meta from "./company/meta.png";
@@ -58,6 +64,11 @@ export {
   tailwind,
   typescript,
   threejs,
+  ADO,
+  Csharp,
+  dotNet,
+  Python,
+  SQL,
   Spartronics,
   Primus,
   meta,

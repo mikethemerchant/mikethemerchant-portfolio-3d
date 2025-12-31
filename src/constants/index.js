@@ -28,6 +28,11 @@ import {
     chris,
     andrew,
     iwata,
+    ADO,
+    Csharp,
+    dotNet,
+    Python,
+    SQL,
   } from "../assets";
   
   export const navLinks = [
@@ -62,56 +67,32 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
+      name: "ADO",
+      icon: ADO,
     },
     {
-      name: "CSS 3",
-      icon: css,
+      name: "C#",
+      icon: Csharp,
     },
     {
       name: "JavaScript",
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "dotNet",
+      icon: dotNet,
     },
     {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
+      name: "Python",
+      icon: Python,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
+      name: "SQL",
+      icon: SQL,
     },
   ];
   
