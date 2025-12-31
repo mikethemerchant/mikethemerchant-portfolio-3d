@@ -37,6 +37,7 @@ import tesla from "./company/tesla.png";
 import chris from "./company/Chris.jpg";
 import andrew from "./company/Andrew.jpg";
 import iwata from "./company/Iwata.jpg";
+import woodgrain from "./company/Woodgrain.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -81,4 +82,5 @@ export {
   chris,
   andrew,
   iwata,
+  woodgrain,
 };

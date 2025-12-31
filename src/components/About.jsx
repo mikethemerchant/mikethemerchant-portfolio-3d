@@ -49,10 +49,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]"
       >
-        I am a skilled problem software engineer with a passion for building.  
-        I have experiend in Javascript and experties in frameworks like React and Node.js.  
-        I am a quick learner and I am always looking to expand my skillset.  
-        The past years was in a microsoft shop and I am relearning a new stack. 
+        I’m a senior software engineer focused on modernizing legacy systems, automating delivery pipelines, and reducing operational risk.
+        
+        Most of my work lives at the intersection of legacy applications, Azure DevOps CI/CD, and pragmatic AI assistance — bringing structure, visibility, and repeatability to environments that grew organically over many years.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

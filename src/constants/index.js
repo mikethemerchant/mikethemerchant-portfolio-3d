@@ -33,6 +33,7 @@ import {
     dotNet,
     Python,
     SQL,
+    woodgrain,
   } from "../assets";
   
   export const navLinks = [
@@ -52,15 +53,15 @@ import {
   
   const services = [
     {
-      title: "Change Agent",
+      title: "Modernization",
       icon: web,
     },
     {
-      title: "Leader",
+      title: "Delivery & Automation",
       icon: mobile,
     },
     {
-      title: "Problem Solver",
+      title: "Systems Thinking",
       icon: creator,
     },
   ];
@@ -98,11 +99,23 @@ import {
   
   const experiences = [
     {
+      title: "ERP Analyst 3",
+      company_name: "Woodgrain",
+      icon: woodgrain,
+      iconBg: "#e5e7eb", // lighter background for Woodgrain badge
+      date: "April 2024 – Present",
+      points: [
+        "Led the technical integration and onboarding of an acquired company, overseeing all aspects from network hardware and Azure cloud migration to end-user computer reimaging, ensuring zero business disruption.",
+        "Championed the data modernization and application readiness effort, including database migration, legacy app updates, and comprehensive UAT, while onboarding new support partners for the ERP ecosystem.",
+        "Integrated Tricentis Tosca into SAP S4, designing automated test strategies and embedding them within a modern DevOps pipeline to boost quality and accelerate delivery."
+      ],
+    },
+    {
       title: "IT Director of ERP Business Processes",
       company_name: "Spartronics",
       icon: Spartronics,
       iconBg: "#383E56",
-      date: "January 2021 – Present",
+      date: "January 2021 – February 2024",
       points: [
         "Architected, executed, documented, and conducted training for change control systems, skillfully integrating RapidValue, Azure DevOps, and Microsoft Dynamics 365 Finance and Supply Chain in close partnership with the Chief Information Officer (CIO).",
         "Collaborated extensively with Columbus and To-Increase to validate the seamless end-to-end functionality of the RSAT regression testing process.",
