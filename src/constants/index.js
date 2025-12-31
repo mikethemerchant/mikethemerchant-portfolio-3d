@@ -221,7 +221,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/mikethemerchant/legacy-modernization-azure-devops/tree/master",
+      source_code_link: "https://github.com/mikethemerchant/legacy-modernization-azure-devops/blob/master/README.md",
     },
     {
       name: "Roadmap example",
