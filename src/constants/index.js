@@ -209,41 +209,41 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Legacy Modernization with Azure DevOps",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This repository documents a real-world legacy application modernization effort focused on reducing deployment risk through automation, CI/CD, and pragmatic AI assistance.  The goal was not a full rewrite, but to safely introduce source control, repeatable builds, and auditable deployments into a high-risk legacy environment.",
       tags: [
         {
-          name: "react",
+          name: "CI/CD",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "legacy",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Git",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/mikethemerchant/legacy-modernization-azure-devops/tree/master",
     },
     {
-      name: "Job IT",
+      name: "Roadmap example",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Roadmap (coming soon)",
       tags: [
         {
-          name: "react",
+          name: "risk management",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "architecture planning",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "business strategy",
           color: "pink-text-gradient",
         },
       ],
@@ -251,20 +251,20 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "AI Agent developer",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "AI agent worked next to me to help with various tasks.",
       tags: [
         {
-          name: "nextjs",
+          name: "ADO",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: ".Net",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Docker",
           color: "pink-text-gradient",
         },
       ],
