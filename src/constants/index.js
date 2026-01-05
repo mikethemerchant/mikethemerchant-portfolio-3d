@@ -242,7 +242,7 @@ import {
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/mikethemerchant/enterprise-systems-strategy-roadmap/tree/master",
     },
     {
       name: "AI Agent developer",
