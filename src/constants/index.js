@@ -250,7 +250,7 @@ import {
         "AI agent worked next to me to help with various tasks.",
       tags: [
         {
-          name: "ADO",
+          name: "AI",
           color: "blue-text-gradient",
         },
         {
@@ -258,12 +258,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Docker",
+          name: "Local LLM",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/mikethemerchant/FullStackAiPlatform",
     },
   ];
   
