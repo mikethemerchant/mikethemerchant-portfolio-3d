@@ -24,6 +24,7 @@ import {
     carrent,
     jobit,
     tripguide,
+    thefly,
     threejs,
     chris,
     andrew,
@@ -202,6 +203,27 @@ import {
   ];
   
   const projects = [
+    {
+      name: "The Documentation Flywheel",
+      description:
+        "This is how you document a business and give the AI context at the same time.",
+      tags: [
+        {
+          name: "AI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CI/CD",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Git",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: thefly,
+      source_code_link: "https://github.com/mikethemerchant/documentation-flywheel",
+    },
     {
       name: "Legacy Modernization with Azure DevOps",
       description:
