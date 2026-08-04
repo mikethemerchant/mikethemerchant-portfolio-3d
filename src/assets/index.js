@@ -42,6 +42,7 @@ import woodgrain from "./company/Woodgrain.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import thefly from "./thefly.png";
 
 export {
   logo,
@@ -79,6 +80,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  thefly,
   chris,
   andrew,
   iwata,
